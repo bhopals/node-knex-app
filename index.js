@@ -5,7 +5,7 @@ const ROUTES = require('./route/routes')
 const indexRoute = require('./route/index')
 const detailsRoute = require('./route/details')
 
-// MIDDLEWARE
+//  MIDDLEWARE
 app.use(bodyParser.json())
 
 // GET
